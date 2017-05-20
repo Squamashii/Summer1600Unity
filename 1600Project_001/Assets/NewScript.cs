@@ -13,6 +13,8 @@ public class NewScript : MonoBehaviour {
 	
 	Today we are going to talk about Bugs.
 	
+	Spiders. 
+		Spiders are like, the worst bugs. They are in the arachnid family, and yeah, they are gross.
 
 	*/
 
