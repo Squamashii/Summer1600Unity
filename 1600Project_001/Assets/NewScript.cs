@@ -17,7 +17,9 @@ public class NewScript : MonoBehaviour {
 
 
 	Worms:
-	Worms are weird.. they don't have legs, or eyes! or really anything. They are just a worm
+	Worms are weird.. they don't have legs, or eyes! or really anything. They are just a worm.
+	When I was about 8 or 10 years old I had to disect an earthworm in school. They have a mouth, and they are always smiling! Talk about traumatizing. Skinning something that is smiling at you.
+
 	*/
 
 }
