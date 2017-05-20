@@ -14,6 +14,10 @@ public class NewScript : MonoBehaviour {
 	Today we are going to talk about Bugs.
 	
 
+
+
+	Worms:
+	Worms are weird.. they don't have legs, or eyes! or really anything. They are just a worm
 	*/
 
 }
