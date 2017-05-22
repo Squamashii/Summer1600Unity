@@ -2,14 +2,13 @@
 using System.Collections;
 
 public class Mammal : Animal {
-//PROPERTIES
-//Hair
-//Warm Blooded
-//HowManyLegs {1, 2, 4}
 
-//FUNCTIONS
-//Live Birth Overides Reproduction
-//Drink Milk
+	//Properties
+	//Hair
+	public bool hasHair = true;
+	public Color hairColor = Color.grey;
 
+	//HowManyLegs
+	public int legCount = 1;
 
 }
