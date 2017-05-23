@@ -26,4 +26,5 @@ public class NewScript : MonoBehaviour {
 	//
 	//
 	//Here is the beginning of feature 3. Am i really supposed to repeat all of this 3 times? haha
+	//Well, penguins are found on every continent.. isn't that crazy?
 }
