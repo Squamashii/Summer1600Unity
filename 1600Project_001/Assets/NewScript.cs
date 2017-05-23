@@ -21,5 +21,16 @@ public class NewScript : MonoBehaviour {
 		//Basically, nobody has really every touched a real penguin. And there aren't Maine lisnce plates, right?
 
 	//The reason penguins cannot fly is because they are robots f2-B3-C1
-	//Those "scientists" that go out to the arctic to study penguins are just special ops data analysts checking up on the penguin tech
+	//Those "scientists" that go out to the arctic to study penguins are just special ops data analysts checking up on the penguin tech.
+	//
+	//
+	//
+	//Here is the beginning of feature 3. Am i really supposed to repeat all of this 3 times? haha
+	//Well, penguins are found on every continent.. isn't that crazy?
+	//F3B2C1 I just realized that I have done all of these commits in the same file for this assignment. Is that what I was supposed to do? That was rhetorical..
+	//F3B2C2 Have you ever been close enough to a penguin to get a good look at its eyes?
+	//
+	//
+	//Woot! Feature 3, Branch 3. We're almost there!
+	//Is this it?
 }
