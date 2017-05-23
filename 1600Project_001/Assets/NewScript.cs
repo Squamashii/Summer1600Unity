@@ -19,4 +19,6 @@ public class NewScript : MonoBehaviour {
 		//How do we know that penguins aren't just a government program?
 		//When I was in highschool I came up with a theory about penguins and Maine
 		//Basically, nobody has really every touched a real penguin. And there aren't Maine lisnce plates, right?
+
+	//The reason penguin s cannot fly is because they are robots f2-B3-C1
 }
