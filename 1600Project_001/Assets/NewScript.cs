@@ -20,5 +20,6 @@ public class NewScript : MonoBehaviour {
 		//When I was in highschool I came up with a theory about penguins and Maine
 		//Basically, nobody has really every touched a real penguin. And there aren't Maine lisnce plates, right?
 
-	//The reason penguin s cannot fly is because they are robots f2-B3-C1
+	//The reason penguins cannot fly is because they are robots f2-B3-C1
+	//Those "scientists" that go out to the arctic to study penguins are just special ops data analysts checking up on the penguin tech
 }
