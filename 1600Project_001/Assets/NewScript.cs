@@ -28,4 +28,5 @@ public class NewScript : MonoBehaviour {
 	//Here is the beginning of feature 3. Am i really supposed to repeat all of this 3 times? haha
 	//Well, penguins are found on every continent.. isn't that crazy?
 	//F3B2C1 I just realized that I have done all of these commits in the same file for this assignment. Is that what I was supposed to do? That was rhetorical..
+	//F3B2C2 Have you ever been close enough to a penguin to get a good look at its eyes?
 }
