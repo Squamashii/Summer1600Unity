@@ -10,8 +10,8 @@ public class NewScript : MonoBehaviour {
 	Well that was interesting, the 2nd branch was completely disintegrated upon merging..
 	 * 
 	 */
+	//Ok, something strange happened during the 2nd branch commits. Here is branch 3 commit 1
+	//Here is a second commit for branch 3, hallelujah!
 
-
-//Ok, something strange happened during the 2nd branch commits. Here is branch 3 commit 1
-//Here is a second commit for branch 3, hallelujah!
+	//I might as well write some real infomration in here. Penguins can fly.
 }
