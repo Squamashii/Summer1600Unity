@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Mammal : Animal {
+public class Mammal:Animal{
 	//
 	//Properties
 	//Hair
@@ -16,4 +16,9 @@ public class Mammal : Animal {
 	//Live Birth Overides Reproduction
 	//Feed Milk
 	//Bite
+	void start()
+	{
+	}
+
+
 }

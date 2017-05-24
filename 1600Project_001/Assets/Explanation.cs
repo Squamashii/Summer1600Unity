@@ -11,7 +11,7 @@ public class Explanation : MonoBehaviour {
 	*/
 	public int wholeNumber = 10;
 	public float decimalNumber = 5.5f;
-	public string[] sentences = { "This is a string variable" "This is another string unput"};
+	public string[] sentences = { "This is a string variable" + "This is another string output"};
 	public Color testColor = Color.black;
 	public bool trueOrFalse = true;
 }
