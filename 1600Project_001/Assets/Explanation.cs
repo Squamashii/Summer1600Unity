@@ -38,4 +38,26 @@ public class Explanation : MonoBehaviour {
 			print("this " + this.name + " is equal to 10");
 		}
 	} 
+
+	//Conventions and Syntax:
+	/*
+	 The period "." is used to separate pieces of a multi-piece element. Like an address, where the dot would separate the city.state.street.etc
+	 The semicolon ";" is used at the end of every statement. Curly brackets don't need semicolons. "{}"
+	 You indent your curly bracket code segments to stay organized and keep it simple to read.
+		{
+		This is sort of like hitting tab in a word document
+			{
+			They get layered, and the stuff on the inside applies to everything surrounding it.
+			}
+		}
+	// comments are made by using the double slash. 
+	/*
+	 * Or you can have a multi-lined comment by using the asterist dash
+	 * 
+	 */
+	 
+
+
+
+	 */
 }
