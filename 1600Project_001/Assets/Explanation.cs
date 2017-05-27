@@ -2,13 +2,47 @@
 using System.Collections;
 
 public class Explanation : MonoBehaviour {
+	//Math Operators.
+	/*
+	 C# follows the same "order of operations" as in conventional math. P.E.M.D.A.S or (), exponents, Mult/Div, Add/Subtr.
+	 The following are the common math operators in C#:
+	 + Add
+	 - Subtract
+	 * Multiply
+	 / Divide
+	 = Assignment
+	 == Comparisons
+	 % Modulus which gives you the remainder after division
+	 += Var = Var + Var2
+	 -= Var = Var - Var2
+	 *= and /= and %= work the same way..
+	 ++ increases Var's value by 1
+	 ++x Prefix: increments value by x, and then continues the expression
+	 x++ Postfix: Evaluates the expression first, and then increments the value by x
+	 --x and x-- work the same way but decrease value
+	 */
+	int a = 17 % 7;
+	int b;
+	int c;
+	void OnEnable()
+	{
+		print(a);
+		int c = 33;
+		int b = a += c;
+		print(c / a + b); //Try to figure out the order that this will execute ;)
+	}
+	
+
+	
+
+
 
 	//What is a variable?
 	/*
 	 * A variable is a bit of information that is stored in the program. 
 	 * Variables can be whole numbers (int), decimal numbers (float), true or false (bool), words/sentences (string), etc.
 	 * To use a variable in your code, you have to first declare it by stating the variable type, 
-	*
+	
 	
 	public float decimalNumber = 5.5f;
 	public string[] sentences = { "This is a string variable"};
@@ -59,5 +93,9 @@ public class Explanation : MonoBehaviour {
 
 
 
-	 */
+	 
+}
+
+internal class a
+{
 }
