@@ -13,7 +13,7 @@ public class Animal: MonoBehaviour {
 	//Body Segments
 	public string[] bodySegments = {"Head", "Abs", "Thorax" };
 	//Health
-	public int health = 100;
+	public int health = 100; //
 	//speed
 	public float speed = 0.0f;
 	//size
@@ -28,6 +28,11 @@ public class Animal: MonoBehaviour {
 	//Move
 	//Die
 	//Grow
+
+
+
+
+
 	void Start()
 	{
 		if (canEat)
@@ -38,13 +43,40 @@ public class Animal: MonoBehaviour {
 		{
 			print(this.name + " can't eat.");
 		}
+
 		if (2 + 5 == 7)
 		{
 			print(7);
 		}
+
 		if (animalName == "Jen")
 		{
 			print("this " + this.name + " is named Jen");
 		}
+
+		
+		if (speed > 0f)
+		{
+			speed %= 2f;
+			print(speed + " Boom");
+		}
+
+		if (health > 0)
+		{
+			health %= 2;
+			print(health);
+		}
+		else
+		{
+			Debug.LogError("You can't divide by Zer0.");
+			print("error");
+		}
 	}
+
+
+
+
+
+
+
 }

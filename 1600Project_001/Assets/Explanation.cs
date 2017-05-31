@@ -2,6 +2,13 @@
 using System.Collections;
 
 public class Explanation : MonoBehaviour {
+	
+	// If and Else Clauses
+
+	
+	
+	
+	
 	//Math Operators.
 	/*
 	 C# follows the same "order of operations" as in conventional math. P.E.M.D.A.S or (), exponents, Mult/Div, Add/Subtr.
@@ -10,8 +17,9 @@ public class Explanation : MonoBehaviour {
 	 - Subtract
 	 * Multiply
 	 / Divide
-	 = Assignment
-	 == Comparisons
+	 = Assignment of a value to a variable
+	 == Comparisons looking for equality
+	 != Comparisons looking for inequality
 	 % Modulus which gives you the remainder after division
 	 += Var = Var + Var2
 	 -= Var = Var - Var2
@@ -32,12 +40,7 @@ public class Explanation : MonoBehaviour {
 		print(c / a + b); //Try to figure out the order that this will execute ;)
 	}
 	
-
-	
-
-
-
-	//What is a variable?
+		//What is a variable?
 	/*
 	 * A variable is a bit of information that is stored in the program. 
 	 * Variables can be whole numbers (int), decimal numbers (float), true or false (bool), words/sentences (string), etc.
