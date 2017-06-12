@@ -28,13 +28,16 @@ public class Animal: MonoBehaviour {
 	//Move
 	//Die
 	//Grow
+	public int[] arrayTest1 = {001, 101, 201, 301, 401, 501, 601, 701, 801, 901};
+	public GameObject[] arrayTest2 = new GameObject[2];
 
-
-
-
+	//arrayTest1[2] = 43; //this is only temporary
 
 	void Start()
 	{
+
+		
+
 		if (canEat)
 		{
 			print(this.name + " can eat.");

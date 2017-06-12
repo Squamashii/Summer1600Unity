@@ -4,9 +4,12 @@ using System.Collections;
 public class Bird : Animal {
 
 	//Properties
-	//Feathers
+	//Feather count
+	public int feathers = 100;
 	//Beak
-	//Wings
+	public float beak = 0.25f; 
+	//Wings bool if they work
+	public bool wings = true;
 	//Color
 	public Color featherColor = Color.red;
 
@@ -16,7 +19,8 @@ public class Bird : Animal {
 	//LayEggs overides repreopducion
 	//Call
 
-
+		
+	//Variables for testiing 
 	public string charName = "Freddy";
 	public float charWeight = 150.5f;
 	public int charHeightcm = 95;
@@ -25,6 +29,24 @@ public class Bird : Animal {
 
 	void Start() //This is the Start function, and includes everything in the following curly bracket code box.
 	{
+		if (beak < 0.1f || beak > 10)
+		{
+			print("This bird is too small or too big");
+		}
+
+
+
+
+		if (wings && feathers > 0)
+		{
+			print("flying");
+		}
+		else
+		{
+			print("bird is lame");
+		}
+
+		/*
 		if (charHeightcm <= 120)    //The computer will check if whatever is inside these parenthesis are true, and if it is, it will continue with the function in the curly brackets below it. 
 		{
 			print("You are a midget");
@@ -74,7 +96,7 @@ public class Bird : Animal {
 		else
 		{
 			charHappy = false;
-		}
+		}		*/
 	}
 
 
