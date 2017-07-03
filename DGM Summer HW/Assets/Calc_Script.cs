@@ -16,7 +16,9 @@ public class Calc_Script : MonoBehaviour {
 	public string mathOpps = "=";
 
 //Clears the result window 
-	public void ClearClick(){result.text = "";}
+	public void ClearClick(){
+		result.text = "";
+		}
 
 //These are the number buttons. They just add the number to the end of the result.text
 	public void But1Click(){
@@ -88,7 +90,7 @@ public class Calc_Script : MonoBehaviour {
 	//This one is going to take some more work, but it basically just switches between operators that I clicked
 	public void EqClick(){
 		save2 = float.Parse(result.text);
-		operation.text = "";
+		//operation.text = "";
 		switch(mathOpps){
 			case "+":	
 				save3 = save1 + save2; 	break;

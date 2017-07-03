@@ -5,7 +5,7 @@ using UnityEngine.UI;
 using System;
 
 public class CalcGame : MonoBehaviour {
-
+/*
 	//Variables
 	Text resultText;
 	float result = 0.0f;
@@ -32,7 +32,7 @@ public class CalcGame : MonoBehaviour {
 		resultText.text = "" + result;
 	}
 	
-
+*/
 
 
 
