@@ -42,23 +42,26 @@ public class Calculator : MonoBehaviour {
 		result.text = "";
 	}
 
-
 	public void EqClick(){
 		save2 = float.Parse(result.text);
 		float save3 = 0.0f;
 		//operation.text = "";
 		switch(opps){
 			case "+":	
-				save3 = save1 + save2; 	break;
+				save3 = save1 + save2; 	
+			break;
 			
 			case "-":	
-				save3 = save1 - save2;	break;
+				save3 = save1 - save2;	
+			break;
 
 			case "*":	
-				save3 = save1 * save2;	break;
+				save3 = save1 * save2;
+			break;
 			
 			case "/":	
-				save3 = save1 / save2;	break;
+				save3 = save1 / save2;	
+			break;
 		}
 		finalResult.text = save3.ToString();
 		result.text = "";

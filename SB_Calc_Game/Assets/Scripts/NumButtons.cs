@@ -3,13 +3,12 @@ using System.Collections;
 using UnityEngine.UI;
 using System.Collections.Generic;
 
-public class NumButtons : MonoBehaviour {
-
-	public Text numString;
-	public Text mathOpp;
+public class NumButtons : Calculator {
 
 	public void NumClick(){
-		numString.text = numString.text + gameObject.name;
-		mathOpp.text = "";
+		
+		result.text = result.text + gameObject.name;
+		oppDisplay.text = "";
+				
 	}
 }
