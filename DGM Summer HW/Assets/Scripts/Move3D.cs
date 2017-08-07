@@ -15,8 +15,6 @@ public class Move3D : MonoBehaviour {
 		myR = GetComponent<Rigidbody>();
 	}
 	
-		// Update is called once per frame
-	
 	void FixedUpdate () 
 	{
 		if(Input.GetKeyDown(KeyCode.Space) && canJump)
@@ -25,15 +23,13 @@ public class Move3D : MonoBehaviour {
 		}
 	}
 
-
 	void Update()
 	{
 	 var y = Input.GetAxis("Horizontal")*Time.deltaTime*turnSpeed;
 	 var z = Input.GetAxis("Vertical")*Time.deltaTime*moveSpeed;	
 	
-	transform.Rotate(0,y,0);
-	transform.Translate(0,0,z);
-	
+		transform.Rotate(0,y,0);
+		transform.Translate(0,0,z);
 	}
 
 	private void Jump()

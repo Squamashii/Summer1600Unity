@@ -7,13 +7,14 @@ public class Destroy : MonoBehaviour {
 
 	public Transform spawnPoint;
 	public int points;
+	public Text chickenCount;
 		
 	void OnCollisionEnter(Collision other)
 	{
 		if(other.gameObject.name == "Player1")
 		{
 			//Destroy(gameObject);
-			scoreManager.AddPoints(points);
+			ChickenCounter.AddChicken(points);
 			transform.position = spawnPoint.position;
 			transform.rotation = spawnPoint.rotation;
 			
