@@ -9,8 +9,9 @@ public class BuildWord : MonoBehaviour {
 	public List<GameObject> itemsList;
 	private List<GameObject> defaultWord;	
 	List<GameObject> prefabList = new List<GameObject>();
-	public float spacing = 2;
+	public float spacing = 50f;
 	public LetterScrambler scrambler;
+	private bool running = false;
 
 
 	void Awake () {
@@ -24,21 +25,32 @@ public class BuildWord : MonoBehaviour {
 		BuildWords(false);
 	}
 	//-----------------------------------------------------------------------------------
-	void LoadLetters()
+	public void LoadLetters()
 	{		
 		foreach(GameObject a in itemsList)
 		{
 			GameObject b = Instantiate(a, transform.position, transform.rotation) as GameObject;
-			b.transform.parent=this.gameObject.transform;
+			b.transform.parent=gameObject.transform;
 			prefabList.Add(b);			
 		}
-	} 
+	}
 
-	void SaveWord(){
+	public void WipeEverything()
+	{
+		foreach (GameObject prefab in prefabList)
+		{
+			Destroy(prefab);
+		}
+		prefabList.Clear();
+	}
+	
+	public void SaveWord(){
 		defaultWord = new List<GameObject> (prefabList);
 	}
 
-	public void ResetHandler(){
+	public void ResetHandler()
+	{
+		running = false;
 		StopCoroutine(ScrambleTimer());
 		prefabList = new List<GameObject> (defaultWord);
 		BuildWords(false);
@@ -50,13 +62,18 @@ public class BuildWord : MonoBehaviour {
 		//BuildWords(true);
 	}
 
-	IEnumerator ScrambleTimer(){
-		float wait_seconds = Random.Range (0, 10);
-		yield return new WaitForSeconds(wait_seconds);
-		BuildWords(true);
+	IEnumerator ScrambleTimer()
+	{
+		running = true;
+		while (running)
+		{
+			float wait_seconds = Random.Range (1, 100);
+			yield return new WaitForSeconds(wait_seconds);
+			BuildWords(true);
+		}
 	}
 
-	private void BuildWords(bool scramble){
+	public void BuildWords(bool scramble){
 
 		if(scramble)
 		{

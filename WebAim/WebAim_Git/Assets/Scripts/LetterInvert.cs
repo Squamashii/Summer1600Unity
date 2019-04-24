@@ -5,6 +5,8 @@ using UnityEngine.Events;
 
 public class LetterInvert : MonoBehaviour {
 
+	bool running = false;
+	
 	void Awake () {
 		DysFunctions.Inverter += InvActionHandler;
 		DysFunctions.Reseter += ResetHandler;
@@ -15,17 +17,23 @@ public class LetterInvert : MonoBehaviour {
 		//this.transform.Rotate(0,0,180);
 	}
 
-	IEnumerator InvertTimer(){
-		int i = 1;
-		float wait_seconds = Random.Range (3, 25);
-		yield return new WaitForSeconds(wait_seconds);
-		this.transform.Rotate(0,0,i*180);
-		this.transform.Rotate(0,i*180,0);
-		i++;
+	IEnumerator InvertTimer()
+	{
+		running = true;
+		while (running)
+		{
+			float wait_seconds = Random.Range (1, 100);
+			yield return new WaitForSeconds(wait_seconds);
+			this.transform.Rotate(0,0,180);
+			this.transform.Rotate(0,180,0);
+		}
+		
 	}
 	
 	
-	public void ResetHandler () {
+	public void ResetHandler ()
+	{
+		running = false;
 		StopCoroutine(InvertTimer());
 		this.transform.rotation = Quaternion.identity;
 	}

@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4bb071f0-b7d5-406d-9939-da5e3b8f8543" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="LetterInvert.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/LetterInvert.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="570">
+              <caret line="41" selection-start-line="41" selection-end-line="41" />
+              <folding>
+                <marker date="1556132092499" expanded="false" signature="6:104" ph="..." />
+                <marker date="1556132092499" expanded="true" signature="148:777" ph="{...}" />
+                <marker date="1556132092499" expanded="true" signature="191:280" ph="{...}" />
+                <marker date="1556132092499" expanded="true" signature="315:388" ph="{...}" />
+                <marker date="1556132092499" expanded="true" signature="416:636" ph="{...}" />
+                <marker date="1556132092499" expanded="true" signature="455:630" ph="{...}" />
+                <marker date="1556132092499" expanded="true" signature="669:775" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LetterReversal.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/LetterReversal.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+              <folding>
+                <marker date="1556132637499" expanded="false" signature="6:104" ph="..." />
+                <marker date="1556132637499" expanded="true" signature="149:750" ph="{...}" />
+                <marker date="1556132637499" expanded="true" signature="200:289" ph="{...}" />
+                <marker date="1556132637499" expanded="true" signature="325:399" ph="{...}" />
+                <marker date="1556132637499" expanded="true" signature="429:611" ph="{...}" />
+                <marker date="1556132637499" expanded="true" signature="468:608" ph="{...}" />
+                <marker date="1556132637499" expanded="true" signature="641:748" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BuildWord.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/BuildWord.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="645">
+              <caret line="69" column="52" selection-start-line="69" selection-start-column="52" selection-end-line="69" selection-end-column="52" />
+              <folding>
+                <marker date="1556132663155" expanded="false" signature="6:104" ph="..." />
+                <marker date="1556132663155" expanded="true" signature="145:1916" ph="{...}" />
+                <marker date="1556132663155" expanded="true" signature="393:482" ph="{...}" />
+                <marker date="1556132663155" expanded="true" signature="497:555" ph="{...}" />
+                <marker date="1556132663155" expanded="true" signature="669:879" ph="{...}" />
+                <marker date="1556132663155" expanded="true" signature="711:876" ph="{...}" />
+                <marker date="1556132663155" expanded="true" signature="910:1010" ph="{...}" />
+                <marker date="1556132663155" expanded="true" signature="957:985" ph="{...}" />
+                <marker date="1556132663155" expanded="true" signature="1036:1091" ph="{...}" />
+                <marker date="1556132663155" expanded="true" signature="1120:1251" ph="{...}" />
+                <marker date="1556132663155" expanded="true" signature="1283:1346" ph="{...}" />
+                <marker date="1556132663155" expanded="true" signature="1376:1544" ph="{...}" />
+                <marker date="1556132663155" expanded="true" signature="1415:1541" ph="{...}" />
+                <marker date="1556132663155" expanded="true" signature="1584:1914" ph="{...}" />
+                <marker date="1556132663155" expanded="true" signature="1601:1646" ph="{...}" />
+                <marker date="1556132663155" expanded="true" signature="1690:1748" ph="{...}" />
+                <marker date="1556132663155" expanded="true" signature="1827:1910" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LetterSeperator.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/LetterSeperator.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="704">
+              <caret line="205" column="33" selection-start-line="205" selection-start-column="33" selection-end-line="205" selection-end-column="33" />
+              <folding>
+                <marker date="1556130810037" expanded="true" signature="6:100" ph="..." />
+                <marker date="1556130810037" expanded="true" signature="146:4853" ph="{...}" />
+                <marker date="1556130810037" expanded="true" signature="334:369" ph="{...}" />
+                <marker date="1556130810037" expanded="true" signature="399:4851" ph="{...}" />
+                <marker date="1556130810037" expanded="true" signature="495:4741" ph="{...}" />
+                <marker date="1556130810037" expanded="true" signature="528:2630" ph="{...}" />
+                <marker date="1556130810037" expanded="true" signature="553:2597" ph="{...}" />
+                <marker date="1556130810037" expanded="true" signature="2638:4733" ph="{...}" />
+                <marker date="1556130810037" expanded="false" signature="2663:4700" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/BuildWord.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/LetterInvert.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/LetterSeperator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/LetterReversal.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/Scripts/LetterSeperator.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/LetterInvert.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/LetterReversal.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/BuildWord.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="240" />
+    <option name="width" value="1440" />
+    <option name="height" value="1047" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="UnityExplorer" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="SolutionExplorer">
+        <option name="show-file-system" value="false" />
+        <option name="show-all-items" value="false" />
+      </pane>
+      <pane id="UnityExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="ad4990d8:FileSystemViewPaneBase$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="WebAim_Git" type="483dac07:UnityExplorerNode$Root" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-hidden-items" value="false" />
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4bb071f0-b7d5-406d-9939-da5e3b8f8543" name="Default" comment="" />
+      <created>1556126569044</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1556126569044</updated>
+      <workItem from="1556126573375" duration="6152000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="6152000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="240" y="0" width="1440" height="1047" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Errors In Solution" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Unit Tests" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="NuGet" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Unity" />
+      <window_info anchor="right" id="Database" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" isUnityUI="false" />
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/LetterSeperator.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="704">
+          <caret line="205" column="33" selection-start-line="205" selection-start-column="33" selection-end-line="205" selection-end-column="33" />
+          <folding>
+            <marker date="1556130810037" expanded="true" signature="6:100" ph="..." />
+            <marker date="1556130810037" expanded="true" signature="146:4853" ph="{...}" />
+            <marker date="1556130810037" expanded="true" signature="334:369" ph="{...}" />
+            <marker date="1556130810037" expanded="true" signature="399:4851" ph="{...}" />
+            <marker date="1556130810037" expanded="true" signature="495:4741" ph="{...}" />
+            <marker date="1556130810037" expanded="true" signature="528:2630" ph="{...}" />
+            <marker date="1556130810037" expanded="true" signature="553:2597" ph="{...}" />
+            <marker date="1556130810037" expanded="true" signature="2638:4733" ph="{...}" />
+            <marker date="1556130810037" expanded="false" signature="2663:4700" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/LetterInvert.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
+          <folding>
+            <marker date="1556132092499" expanded="false" signature="6:104" ph="..." />
+            <marker date="1556132092499" expanded="true" signature="148:777" ph="{...}" />
+            <marker date="1556132092499" expanded="true" signature="191:280" ph="{...}" />
+            <marker date="1556132092499" expanded="true" signature="315:388" ph="{...}" />
+            <marker date="1556132092499" expanded="true" signature="416:636" ph="{...}" />
+            <marker date="1556132092499" expanded="true" signature="455:630" ph="{...}" />
+            <marker date="1556132092499" expanded="true" signature="669:775" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/LetterReversal.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+          <folding>
+            <marker date="1556132637499" expanded="false" signature="6:104" ph="..." />
+            <marker date="1556132637499" expanded="true" signature="149:750" ph="{...}" />
+            <marker date="1556132637499" expanded="true" signature="200:289" ph="{...}" />
+            <marker date="1556132637499" expanded="true" signature="325:399" ph="{...}" />
+            <marker date="1556132637499" expanded="true" signature="429:611" ph="{...}" />
+            <marker date="1556132637499" expanded="true" signature="468:608" ph="{...}" />
+            <marker date="1556132637499" expanded="true" signature="641:748" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/BuildWord.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="645">
+          <caret line="69" column="52" selection-start-line="69" selection-start-column="52" selection-end-line="69" selection-end-column="52" />
+          <folding>
+            <marker date="1556132663155" expanded="false" signature="6:104" ph="..." />
+            <marker date="1556132663155" expanded="true" signature="145:1916" ph="{...}" />
+            <marker date="1556132663155" expanded="true" signature="393:482" ph="{...}" />
+            <marker date="1556132663155" expanded="true" signature="497:555" ph="{...}" />
+            <marker date="1556132663155" expanded="true" signature="669:879" ph="{...}" />
+            <marker date="1556132663155" expanded="true" signature="711:876" ph="{...}" />
+            <marker date="1556132663155" expanded="true" signature="910:1010" ph="{...}" />
+            <marker date="1556132663155" expanded="true" signature="957:985" ph="{...}" />
+            <marker date="1556132663155" expanded="true" signature="1036:1091" ph="{...}" />
+            <marker date="1556132663155" expanded="true" signature="1120:1251" ph="{...}" />
+            <marker date="1556132663155" expanded="true" signature="1283:1346" ph="{...}" />
+            <marker date="1556132663155" expanded="true" signature="1376:1544" ph="{...}" />
+            <marker date="1556132663155" expanded="true" signature="1415:1541" ph="{...}" />
+            <marker date="1556132663155" expanded="true" signature="1584:1914" ph="{...}" />
+            <marker date="1556132663155" expanded="true" signature="1601:1646" ph="{...}" />
+            <marker date="1556132663155" expanded="true" signature="1690:1748" ph="{...}" />
+            <marker date="1556132663155" expanded="true" signature="1827:1910" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
