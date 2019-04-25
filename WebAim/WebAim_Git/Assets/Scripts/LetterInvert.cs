@@ -34,8 +34,10 @@ public class LetterInvert : MonoBehaviour {
 	public void ResetHandler ()
 	{
 		running = false;
-		StopCoroutine(InvertTimer());
+		StopAllCoroutines();
+		//StopCoroutine(InvertTimer());
 		this.transform.rotation = Quaternion.identity;
+		Debug.Log("Invert is Reset: " + running);
 	}
 }
 

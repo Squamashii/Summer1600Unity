@@ -31,7 +31,9 @@ public class LetterReversal : MonoBehaviour
 	public void ResetHandler ()
 	{
 		running = false;
-		StopCoroutine(ReverseTimer());
+		StopAllCoroutines();
+		//StopCoroutine(ReverseTimer());
 		this.transform.rotation = Quaternion.identity;
+		Debug.Log("Reverse is Reset: " + running);
 	}
 }

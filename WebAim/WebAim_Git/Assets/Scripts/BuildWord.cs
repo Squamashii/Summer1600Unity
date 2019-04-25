@@ -51,9 +51,11 @@ public class BuildWord : MonoBehaviour {
 	public void ResetHandler()
 	{
 		running = false;
-		StopCoroutine(ScrambleTimer());
+		StopAllCoroutines();
+		//StopCoroutine(ScrambleTimer());
 		prefabList = new List<GameObject> (defaultWord);
 		BuildWords(false);
+		Debug.Log("Scrambler is Reset: " + running);
 	}
 
 	public void ScrambleHandler()
@@ -63,13 +65,13 @@ public class BuildWord : MonoBehaviour {
 	}
 
 	IEnumerator ScrambleTimer()
-	{
-		running = true;
+	{	
+		running = true;	
 		while (running)
 		{
-			float wait_seconds = Random.Range (1, 100);
+			float wait_seconds = Random.Range (1, 20);
 			yield return new WaitForSeconds(wait_seconds);
-			BuildWords(true);
+			BuildWords(true);			
 		}
 	}
 
