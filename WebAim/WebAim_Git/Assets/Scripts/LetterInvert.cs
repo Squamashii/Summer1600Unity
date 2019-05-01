@@ -22,7 +22,7 @@ public class LetterInvert : MonoBehaviour {
 		running = true;
 		while (running)
 		{
-			float wait_seconds = Random.Range (1, 100);
+			float wait_seconds = Random.Range (5, 50);
 			yield return new WaitForSeconds(wait_seconds);
 			this.transform.Rotate(0,0,180);
 			this.transform.Rotate(0,180,0);

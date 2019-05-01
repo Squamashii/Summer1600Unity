@@ -9,18 +9,22 @@ public class DysFunctions : MonoBehaviour {
 	public static UnityAction Reverser;
 	public static UnityAction Scrambler;
 	public static UnityAction Reseter;
+	public static UnityAction Page1Set;
+	public static UnityAction Page2Set;
 
-	public void InvertAction(){
+	public void SimCallHandler(){
 		Inverter();
-	}
-	public void ReverseAction(){
 		Reverser();
-	}
-	public void ScrambleAction(){
 		Scrambler();
 	}
 	public void ResetAction(){
 		Reseter();
+	}
+	public void Page1Action(){
+		Page1Set();
+	}
+	public void Page2Action(){
+		Page2Set();
 	}
 	
 }

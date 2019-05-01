@@ -69,7 +69,7 @@ public class BuildWord : MonoBehaviour {
 		running = true;	
 		while (running)
 		{
-			float wait_seconds = Random.Range (1, 20);
+			float wait_seconds = Random.Range (5, 20);
 			yield return new WaitForSeconds(wait_seconds);
 			BuildWords(true);			
 		}
